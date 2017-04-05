@@ -1,0 +1,19 @@
+.heading-block, .widget_recent_entries h3 {
+    color: $white;
+    background-color: $dark_gray;
+    position: relative;
+    margin-bottom: 40px;
+    &:before {
+      content: "";
+      width: 0;
+      height: 0;
+      position: absolute;
+      left: 35px;
+      bottom: -38px;
+      border-style: solid;
+      border-color: $dark_gray transparent transparent transparent;
+      border-width: 55px 10px 0 10px;
+      transform: rotate(-45deg);
+    }
+}
+

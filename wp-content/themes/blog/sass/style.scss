@@ -1,0 +1,40 @@
+/*!
+Theme Name: Blog
+Author: Roman Krasnikov
+Description: This is student project as part geekhub course
+Version: 1.0
+License: GNU General Public License v3.0 /
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: geekhub, course, two-columns, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, sticky-post,  theme-options,
+
+_s (or Underscores) http://underscores.me/, (C) 2012-2013 Automattic, Inc. Twitter Bootstrap
+
+*/
+
+/* Import files */
+@import "reset";
+
+@import "variable";
+
+@import "mixins/mixins";
+
+@import "classes";
+
+@import "header";
+
+@import "fonts";
+
+@import "sidebar";
+
+@import "blog-post";
+
+@import "buttons";
+
+@import "title";
+
+@import "footer";
+
+@import "contact";
+
+@import "category2";
+

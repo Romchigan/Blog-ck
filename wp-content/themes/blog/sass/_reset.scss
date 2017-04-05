@@ -1,0 +1,10 @@
+body {
+  &.background-site {
+    background-color: #d3d3d2;
+  }
+  background-image: linear-gradient(to top, #ffffff 60%, #d1d1cf 100%);
+  background-image: -webkit-linear-gradient(to top, #ffffff 60%, #d1d1cf 100%);
+  background-image: -moz-linear-gradient(to top, #ffffff 60%, #d1d1cf 100%);
+  background-image: -ms-linear-gradient(to top, #ffffff 60%, #d1d1cf 100%);
+  background-image: -o-linear-gradient(to top, #ffffff 60%, #d1d1cf 100%);
+}

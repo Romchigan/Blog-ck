@@ -1,0 +1,47 @@
+.site {
+  &-footer {
+    background-color: rgba(255, 255, 255, 0);
+    background: linear-gradient(0deg, #2c2c2b 0, #2c2c2b 1px, rgba(0,0,0,0) 1px, rgba(0,0,0,0) 100%), linear-gradient(90deg, #2c2c2b 0, #2c2c2b 1px, rgba(0,0,0,0) 1px, rgba(0,0,0,0) 100%), linear-gradient(180deg, rgba(0,0,0,0.7) 0, #000 100%);
+    -webkit-background-size: 100px 4px, 4px 100px, auto auto;
+    -moz-background-size: 100px 4px, 4px 100px, auto auto;
+    background-size: 100px 4px, 4px 100px, auto auto;
+    margin-top: 2%;
+    padding: 20px 0 5px 0;
+  }
+}
+
+.footer {
+  &-copyright {
+    color: $white;
+    font: 700 12px Arial;
+  }
+  &-social {
+    background-color: #e2e2e2;
+    opacity: 0.84;
+    width: 33px;
+    height: 33px;
+    position: relative;
+    @include border-radius(6px);
+    &:hover {
+      background-color: #1b1b1a;
+    }
+    &-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li {
+        margin-left: 5px;
+        display: inline-block;
+
+      }
+      a {
+        text-decoration: none;
+        color: #1b1b1a;
+        font-size: 24px;
+        &:hover {
+          color:  #e2e2e2;
+        }
+      }
+    }
+  }
+}
